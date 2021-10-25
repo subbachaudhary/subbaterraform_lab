@@ -15,6 +15,3 @@ resource "aws_instance" "app_server"{
     ami = "default"
     instance_type = "t2.micro"
 }
-tag {
-    Name = "terraform code"
-}
